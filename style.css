@@ -1405,7 +1405,17 @@ h2 {
   .products_description h1 {
     width: fit-content;
   }
-
+  .money_grey {
+    color: var(--system-gray, #9797af);
+    font-family: 'Segoe UI';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-decoration: line-through;
+    text-align: right;
+    cursor: pointer;
+  }
   .main {
     flex-direction: column;
     padding: 16px;
